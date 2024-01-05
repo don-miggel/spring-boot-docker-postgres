@@ -5,5 +5,5 @@ import org.springframework.http.ResponseEntity;
 
 public interface JMSPublisher {
 
-    ResponseEntity<Automobile> pushMessage(Automobile automobile);
+    ResponseEntity<Automobile> pushMessage(Automobile automobile, String topicName);
 }
